@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Easy Notes</string>
+    <string name="create">Создать</string>
+    <string name="save">Сохранить</string>
+    <string name="size">Размер текста</string>
+    <string name="text">Заметка…</string>
+    <string name="title">Заголовок</string>
+    <string name="title_item">Title</string>
+    <string name="text_item">Text</string>
+    <string name="cancel">Отменить</string>
+
+    <string name="alert_message">Сохранить заметку?</string>
+    <string name="alert_yes">Да</string>
+    <string name="alert_on">Нет</string>
+    <string name="alert_cancel">Отмена</string>
+    <string name="updSave">Сохранить</string>
+    <string name="updClose">Закрыть</string>
+    <string name="delete">Удалить</string>
+    <string name="search">Найти</string>
+    <string name="EmptyListView">Нет заметок</string>
+    <string name="ToastText">Здесь пусто, напишите что-нибудь!</string>
+
+    <string name="AlertChoiceTitle">Размер текста</string>
+    <string name="AlertSmall">Маленький</string>
+    <string name="AlertMedium">Средний</string>
+    <string name="AlertBig">Большой</string>
+
+
+</resources>

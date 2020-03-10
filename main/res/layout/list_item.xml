@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+            android:id="@+id/oval_text"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/shape_oval"
+            android:focusable="false"
+            android:fontFamily="@font/roboto_light"
+            android:gravity="center"
+            android:maxLength="1"
+            android:text=""
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="RtlHardcoded"
+            tools:visibility="visible" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:id="@+id/title_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2.5dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/roboto_regular"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="@string/title_item"
+            android:textColor="@color/list_items_color"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/text_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.5dp"
+            android:fontFamily="@font/roboto_light"
+            android:lines="1"
+            android:maxLines="2"
+            android:minLines="1"
+            android:text="@string/text_item"
+            android:textColor="@color/list_items_color"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

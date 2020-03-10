@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/edit_text_color</item>
+
+    </style>
+
+
+    <style name="TitleHintStyle" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/edit_text_color</item>
+        <item name="android:hint">@string/title</item>
+    </style>
+
+
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/oval_color</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+    </style>
+
+</resources>
